@@ -40,7 +40,7 @@ function App() {
         newSocket.close();
       };
     }
-  }, [isNameSet, socket]);
+  }, [isNameSet]);
 
   const fetchStories = async () => {
     try {
