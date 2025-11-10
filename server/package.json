@@ -1,0 +1,23 @@
+{
+  "name": "story-weaver-server",
+  "version": "1.0.0",
+  "description": "Backend Express server with Socket.IO for the collaborative story generator",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node --watch server.js",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [
+    "express",
+    "socket.io",
+    "collaborative-storytelling"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "socket.io": "^4.8.1"
+  }
+}
